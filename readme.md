@@ -3,9 +3,9 @@ Here, you can find my working examples for serializing C++ classes with inherita
 
 ```mermaid
 graph TD;
-  CSymbolic-->CConst;
-  CSymbolic-->CSymbol;
-  CSymbolic-->CSymLink;
+  CConst-->CSymbolic;
+  CSymbol-->CSymbolic;
+  CSymLink-->CSymbolic;
 ```
 
 # Refs
