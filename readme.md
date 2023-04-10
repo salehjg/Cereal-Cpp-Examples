@@ -10,5 +10,8 @@ graph TD;
 
 # Refs
 [Cereal Github](https://github.com/USCiLab/cereal)
+
 [Cereal Website](https://uscilab.github.io/cereal)
+
 [Cereal Docs](https://uscilab.github.io/cereal/quickstart.html)
+
