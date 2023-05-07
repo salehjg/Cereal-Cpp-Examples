@@ -27,6 +27,7 @@ protected:
 	Types m_eType;
 
 private:
+        // Since we are using `serialize` method instead of split `load` and `save` methods, the derived classes of this class should also use `serialize`.
 	template<class Archive>
 	void serialize(Archive& ar)
 	{

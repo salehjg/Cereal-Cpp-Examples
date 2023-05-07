@@ -16,6 +16,7 @@ private:
 	size_t m_uSymbolId;
 	float m_fValue;
 
+        // Since the base class uses `serialize` method, we cannot use `load` and `save` split methods in this class. We should use `serialize` here as well.
 	template<class Archive>
 	void serialize(Archive& ar)
 	{
